@@ -12,41 +12,45 @@
 </head>
 <body>
   <!--Title-->
-  <h1>Crystals Collector!</h1>
+  <div class="title">
+    <h1>Crystals Collector!</h1>
+  </div>
 
   <!--Tell the user how to play the game-->
   <div class="gameRules">
-    <p>You will be given a random number at the start of the game.</p>
-    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
-    <p>You win the game by matching your total score to the random number generated. You lose the game if your total score exceeds the value of the random number generated.</p>
-    <p>The value of each crystal is hidden until you click on it.</p>
+    <p>You will be given a random number at the start of the game.</p><br>
+    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p><br>
+    <p>You win the game by matching your total score to the random number generated. You lose the game if your total score exceeds the value of the random number generated.</p><br>
+    <p>The value of each crystal is hidden until you click on it.</p><br>
     <p>Each time when the game starts, the game will change the values of each crystal.</p>
   </div>
 
-  <!--Randomly generated number box-->
-  <div>
-    <h2><span id="randomNum"></span></h2>
-  </div>
+  <div class="flexBox">
+    <!--Randomly generated number box-->
+    <div class="randomNumBox">
+      <h2><span id="randomNum">--</span></h2>
+    </div>
 
-  <!--Score box-->
-  <div class="scoreBox">
-    <p>Wins: <span id="userWin">0</span></p>
-    <p>Losses: <span id="userLose">0</span></p>
+    <!--Score box-->
+    <div class="scoreBox">
+      <p>Wins: <span id="userWin">0</span></p>
+      <p>Losses: <span id="userLose">0</span></p>
+    </div>
   </div>
 
   <!--Crystal images-->
   <div class="crystals">
-    <img src="assets/images/bluecrystal.jpg" alt="blue crystal">
-    <img src="assets/images/ombrecrystal.jpg" alt="red blue ombre crystal">
-    <img src="assets/images/purplecrystal.jpg" alt="purple crystal">
-    <img src="assets/images/yellowcrystal.jpg" alt="yellow crystal">
+    <img id="blueCrystal" src="assets/images/bluecrystal.jpg" alt="blue crystal">
+    <img id="ombreCrystal"src="assets/images/ombrecrystal.jpg" alt="red blue ombre crystal">
+    <img id="purpleCrystal"src="assets/images/purplecrystal.jpg" alt="purple crystal">
+    <img id="yellowCrystal"src="assets/images/yellowcrystal.jpg" alt="yellow crystal">
   </div>
 
   <!--Sum of the crystals chosen by user-->
   <div class="crystalSum">
     <p>Total of your crystals: </p>
-    <br><hr>
-    <h2><span id="sumClicks"></span></h2>
+    <hr>
+    <h2><span id="sumClicks">--</span></h2>
   </div>
 
   <!--Link JS-->
