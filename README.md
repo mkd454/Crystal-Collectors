@@ -47,7 +47,7 @@ Photo Reference: ![Crystal Collector](Images/1-CrystalCollector.jpg)
 
    - [x] The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-   - [ ] Add finished project to bootstrap portfolio.
+   - [x] Add finished project to bootstrap portfolio.
 
 ##### Game design notes
 
