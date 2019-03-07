@@ -1,77 +1,9 @@
-/* background image */
-body {
-  background-image: url("../images/background.jpg");
-}
-
 /* Make images all one size */
 img {
   width: 100px;
   height: 100px;
 }
 
-/* Title/Header */
-h1 { 
-  display: block;
-  font-size: 2em;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-  margin-left: 10px;
-  margin-right: 0;
-  font-weight: bold;
-  background-color: orange;
-  padding: 10px;
-}
-
-.title {
-  width: 290px;
-  text-align: center;
-}
-
-/* Game Rules */
-.gameRules {
-  background-color: cornsilk;
-  padding: 10px;
-  width: 450px;
-  margin: 10px;
-}
-
-/* Number boxes */
-h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-top: 0.83em;
-  margin-bottom: 0.83em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: bold;
-  margin: 10px;
-}
-
-.flexBox {
-  display: flex;
-  margin: 10px;
-}
-
-.randomNumBox {
-  background-color: lightgreen;
-  padding: 10px;
-  width: 230px;
-}
-
-.scoreBox {
-  background-color: aqua;
-  padding: 10px;
-  width: 100px;
-  margin-left: 10px;
-}
-
-.crystalSum {
-  background-color: teal;
-  padding: 10px;
-  width: 230px;
-  margin: 10px;
-}
-
-#blueCrystal {
-  margin-left: 10px;
+body {
+  background: cornsilk;
 }
